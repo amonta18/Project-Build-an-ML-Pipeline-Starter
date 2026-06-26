@@ -58,28 +58,28 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input_artifact", 
         type = str,
-        help = "Fully-qualified name for the input artifact",
+        help = "Input artifact",
         required = True
     )
 
     parser.add_argument(
         "--output_artifact", 
         type = str,
-        help = "Name for the cleaned output artifact",
+        help = "Output artifact",
         required = True
     )
 
     parser.add_argument(
         "--output_type", 
         type = str,
-        help = "Type of the output artifact",
+        help = "Output artifact type",
         required = True
     )
 
     parser.add_argument(
         "--output_description", 
         type = str,
-        help = "Description of the output artifact",
+        help = "Output artifact description",
         required = True
     )
 
